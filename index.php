@@ -18,6 +18,22 @@
       <img src="img/logo.png" title="summersite.com" alt="summersite.com">
       <span>Summmer Site</span>
   </div>
+  <div id="about">
+    <a href="" title="Learn something new">Something new</a>
+    <a href="" title="Feedback">Feedback</a>
+    <div id="reg_auth">
+      <a href="" title="Log in">
+        <div id="btn">
+          Login
+        </div>
+      </a>
+      <a href="" title="Register">
+        <div id="btn">
+          Register
+        </div>
+      </a>
+    </div>
+  </div>
 </header>
   </body>
 </html>
