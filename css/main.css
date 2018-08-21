@@ -67,20 +67,17 @@ header>div#logo>a>img{
   float: left;
   width: 30%;
 }
-#about{
-  float: left;
-  width: 37%;
-}
 #reg_auth{
   float: right;
   width: 30%;
 }
 #about{
+  float: left;
+  width: 70%;
   text-align: center;
   font-family: 'Roboto Slab', serif;
   font-size: 1.4em;
   padding-top: 10px;
-
 }
 #about>a{
   color: white;
@@ -95,7 +92,7 @@ header>div#logo>a>img{
 #reg_auth>a{
   color: white;
 }
-#reg_auth>a>div.btn{
+#reg_auth>a>div#btn{
   float: right;
   margin-right: 3%;
   margin-top: 5px;
