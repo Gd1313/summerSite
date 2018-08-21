@@ -89,3 +89,6 @@ header>div#logo>a>img{
   color: #dfdfdf;
   border-bottom: 1px solid silver;
 }
+#about>a:last-child{
+  margin-left: 10%;
+}
