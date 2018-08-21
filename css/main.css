@@ -58,3 +58,20 @@ header>div#logo>a{
   margin-left: 10px;
   font-family: 'Suez One', serif;
 }
+header>div#logo>a>img{
+  margin-left: 15%;
+}
+/*Need adaptability*/  
+
+#logo{
+  float: left;
+  width: 30%;
+}
+#about{
+  float: left;
+  width: 37%;
+}
+#reg_auth{
+  float: right;
+  width: 30%;
+}
