@@ -54,7 +54,8 @@
 <a href="">Все права защищены &copy; <?=date('Y')?></a>
 </div>
 <div id="social">
-  <a href="" title="Twitter"></a>
+  <a href="" title="Twitter"><i class="fab fa-twitter-square"></i>
+</a>
 </div>
 </footer>
 </div>
