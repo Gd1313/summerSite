@@ -11,6 +11,10 @@
     <link href="img/sun.ico" rel="shortcut icon" type="image/x-icon">
   </head>
   <body>
+    <div id="wrapper">
+      <div id="content">
+
+
 <header>
   <div id="logo">
     <a href="https://summersite.000webhostapp.com/">
@@ -34,5 +38,10 @@
     </div>
   </div>
 </header>
+</div>
+<footer>
+
+</footer>
+</div>
   </body>
 </html>
