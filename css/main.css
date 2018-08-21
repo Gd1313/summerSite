@@ -61,7 +61,7 @@ header>div#logo>a{
 header>div#logo>a>img{
   margin-left: 15%;
 }
-/*Need adaptability*/  
+/*Need adaptability*/
 
 #logo{
   float: left;
@@ -74,4 +74,18 @@ header>div#logo>a>img{
 #reg_auth{
   float: right;
   width: 30%;
+}
+#about{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.4em;
+  padding-top: 10px;
+
+}
+#about>a{
+  color: white;
+}
+#about>a:hover{
+  color: #dfdfdf;
+  border-bottom: 1px solid silver;
 }
