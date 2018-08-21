@@ -9,6 +9,7 @@
     <meta name="description" content="Practice project site">
     <meta name="viewport" content="width=device-width, initial-scale=1"
     <link href="img/sun.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
   </head>
   <body>
     <div id="wrapper">
@@ -40,7 +41,21 @@
 </header>
 </div>
 <footer>
+<div id="site_name">
+  <span>Summer site</span>- practice project!
+</div>
+<div id="clear">
 
+</div>
+<div id="footer_menu">
+<a href="" title="Feedback">Feedback</a>
+</div>
+<div id="rights">
+<a href="">Все права защищены &copy; <?=date('Y')?></a>
+</div>
+<div id="social">
+  <a href="" title="Twitter"></a>
+</div>
 </footer>
 </div>
   </body>
