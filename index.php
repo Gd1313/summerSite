@@ -12,6 +12,12 @@
     <link href="img/sun.ico" rel="shortcut icon" type="image/x-icon">
   </head>
   <body>
-
+<header>
+  <div id="logo">
+    <a href="https://summersite.000webhostapp.com/">
+      <img src="img/logo.png" title="summersite.com" alt="summersite.com">
+      <span>Summmer Site</span>
+  </div>
+</header>
   </body>
 </html>
