@@ -92,3 +92,16 @@ header>div#logo>a>img{
 #about>a:last-child{
   margin-left: 10%;
 }
+#reg_auth>a{
+  color: white;
+}
+#reg_auth>a>div.btn{
+  float: right;
+  margin-right: 3%;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px 9px;
+  font-size: 1.2em;
+  background-color: rgba(236,101,80,1);
+  text-shadow: #454545 0 0 2px;
+}
