@@ -159,6 +159,7 @@ header>div#logo>a{
   text-shadow: #454545 0 0 2px;
 }
 /*End of site top*/
+/*Footer*/
 #wrapper{
   display: flex;
   flex-direction: column;
@@ -170,8 +171,14 @@ header>div#logo>a{
 footer{
   float: left;
   background-color: #343434;
-  width: 99.4%;
-  padding: 0.3%;
-  color: white;
+  width: 98%;
+  padding: 1%;
+  font-family: 'Roboto Slab', serif;
   border-top: 5px solid #59595a;
+}
+#site_name{
+  margin-right: 5%;
+  color: #f4f4f4;
+  font-size: 1.5em;
+  float: right;
 }
