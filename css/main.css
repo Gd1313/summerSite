@@ -92,6 +92,9 @@ header>div#logo>a>img{
 #reg_auth>a{
   color: white;
 }
+#reg_auth>a:hover>div#btn{
+  border-bottom: 2px solid rgba(217, 91, 72, 1);
+}
 #reg_auth>a>div#btn{
   float: right;
   margin-right: 3%;
