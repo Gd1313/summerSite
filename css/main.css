@@ -47,3 +47,14 @@ header{
   color: white;
   border-bottom: 5px solid #59595a;
 }
+header>div#logo>a>img{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+header>div#logo>a{
+  color: white;
+  font-size: 2.5em;
+  margin-left: 10px;
+  font-family: 'Suez One', serif;
+}
