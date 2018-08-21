@@ -94,6 +94,11 @@ header>div#logo>a>img{
 }
 #reg_auth>a:hover>div#btn{
   border-bottom: 2px solid rgba(217, 91, 72, 1);
+  margin-top: 7px;
+}
+#reg_auth>a:active>div#btn{
+  border-bottom: 0;
+  margin-top: 9px;
 }
 #reg_auth>a>div#btn{
   float: right;
