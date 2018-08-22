@@ -112,6 +112,13 @@
       </div>
     </a>
   </div>
+  <div id="one_video">
+    <h2 class="heading">Your best summer</h2>
+    <div style="clear:both">
+      <br>
+    </div>
+      <img src="http://www.lovethispic.com/uploaded_images/18010-Perfect-Summer-Vacation.jpg" alt="test" title="test" >
+  </div>
 </aside>
 <div style="clear both">
   <br>
