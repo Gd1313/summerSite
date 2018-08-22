@@ -60,8 +60,8 @@
     <a href="">Forum</a><br>
     <a href="">Summer tasks</a><br>
     <hr>
-    <a href="">Register</a><br>
-    <a href="">Login</a><br>
+    <a href="">Register</a>
+    <a href="">Login</a>
   </div>
 </nav>
 </div>
