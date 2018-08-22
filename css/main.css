@@ -199,7 +199,7 @@ footer{
 
 footer_menu>a{
   margin-left: 2%;
-  color: :#f4f4f4;
+  color: #f4f4f4;
 }
 
 #footer_menu>a:hoover,#rights>a:hoover{
@@ -234,4 +234,6 @@ footer_menu>a{
   height: 30px;
   float: right;
   color: white;
+  text-align: center;
+  line-height: 30px;
 }

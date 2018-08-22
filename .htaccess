@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteCond %{HTTP_HOST} ^www.summersite.000webhostapp.com
+    RewriteRule (.*) https://summersite.000webhostapp.com/$1 [R=301,L]
+    RewriteCond %{THE-REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+    RewriteRule ^index\.php$ https://summersite.000webhostapp.com/ [R=301,L]
+</IfModule>
+
+ServerSignature Off
+AddDefaultCharset UTF-8    
