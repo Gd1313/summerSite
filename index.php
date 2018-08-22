@@ -87,17 +87,16 @@
 /*jQuery*/
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script>
-  $('#menuShow').click (function()){
-    if ($('#mobileMenu').is('visible')) {
-        $('#mobileMenu').hide();
-    }else {
-      $('#mobileMenu').show();
-    }
+  $('#menuShow').click (function(){
+  if ($('#mobileMenu').is('visible'))
+      $('#mobileMenu').hide();
+  else
+    $('#mobileMenu').show();
+  });
     window.onresize=function(event){
         $('#mobileMenu').hide();
     };
   }
-
 </script>
   </body>
 </html>
