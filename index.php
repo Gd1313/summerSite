@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <title>Summer site</title>
     <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="css/main page.css" type="text/css" charset="utf-8">
     <meta name="description" content="Practice project site">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="img/sun.ico" rel="shortcut icon" type="image/x-icon">
@@ -64,6 +65,30 @@
     <a href="">Login</a>
   </div>
 </nav>
+<div id="main">
+    <div id="news">
+      <h2 class="heading">Summer news</h2>
+      <div style="clear both">
+        <br>
+      </div>
+      <!--Topic-->
+      <div class="article">
+        <img src="http://inboxpros.com/wp-content/uploads/2016/06/summer.jpg" alt="test" title="test" >
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+      </div>
+    </div>
+</div>
+<aside>
+  <div id="videos">
+    <h2 class="heading">Summer videos</h2>
+    <div style="clear both">
+      <br>
+    </div>
+  </div>
+</aside>
+
 </div>
 <footer>
 <div id="site_name">
