@@ -169,14 +169,19 @@ nav{
   float: left;
   border-bottom: 2px solid #ebebeb;
 }
-nav>a{
+nav a{
   color:#323232;
   font-size: 1.5em;
   margin-left: 5%;
 }
-nav>a:hover{
+nav a:hover{
   color:#868686;
 }
+
+nav a:last-child{
+  margin-right: 15px;
+}
+
 #hideMenu{
   display: inline;
 }

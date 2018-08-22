@@ -93,10 +93,18 @@
   else
     $('#mobileMenu').show();
   });
+  $(document).scroll (function(){
+    if ($(document).scrollTop()>$('header').height()+10) {
+      $('nav').addclass('fixed');
+    }else {
+        $('nav').removeclass('fixed');
+    }
+
+  });
     window.onresize=function(event){
         $('#mobileMenu').hide();
     };
-  }
+
 </script>
   </body>
 </html>
