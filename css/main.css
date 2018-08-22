@@ -175,7 +175,7 @@ nav a{
   margin-left: 5%;
 }
 nav a:hover{
-  color:#868686;
+  color:#e8622d;
 }
 
 nav a:last-child{
@@ -186,6 +186,15 @@ nav a:last-child{
   position: fixed;
   top:0;
   opacity: 0.97;
+  padding: 4px 0.3%;
+}
+
+.fixed a{
+  font-size: 1.3em;
+}
+
+.fixed #search {
+  font-size: 1.2em;
 }
 
 .fixed:hover{
