@@ -72,11 +72,11 @@
       <!--Topic-->
       <?php for ($i=0; $i < 6; $i++) {
        echo'<div class="article">
-         <img src="http://inboxpros.com/wp-content/uploads/2016/06/summer.jpg" alt="test" title="test" >
-         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-             Duis aute irure dolor in reprehenderit in voluptate
-           velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-       </div>';
+              <img src="http://inboxpros.com/wp-content/uploads/2016/06/summer.jpg" alt="test" title="test" >
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            </div>';
       }
 
       ?>
@@ -93,9 +93,29 @@
     <div style="clear both">
       <br>
     </div>
+    <!--Videos-->
+    <?php for ($i=0; $i < 4; $i++) {
+     echo'<div class="videos">
+            <img src="http://inboxpros.com/wp-content/uploads/2016/06/summer.jpghttps://i.ytimg.com/vi/nJXN1aZf3M0/maxresdefault.jpg" alt="test" title="test" >
+            Perfect <em>summer</em>
+            <span>10 videos</span>
+          </div>
+          <div style="clear both">
+            <br>
+          </div>';
+    }
+
+    ?>
+    <a href="" title="View more videos">
+      <div id="btn">
+        View more videos
+      </div>
+    </a>
   </div>
 </aside>
-
+<div style="clear both">
+  <br>
+</div>
 </div>
 <footer>
 <div id="site_name">

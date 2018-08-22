@@ -26,6 +26,12 @@ aside{
   color: #db6e6e;
 }
 
+#news{
+  margin-left: 10%;
+  width:90%;
+  float: left;
+}
+
 .article{
   width: 40%;
   float: left;
