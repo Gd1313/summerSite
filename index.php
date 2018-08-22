@@ -84,5 +84,16 @@
 </div>
 </footer>
 </div>
+/*jQuery*/
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script >
+  $('#menuShow').click (function()){
+    if ($('#mobileMenu').is('visible')) {
+        $('#mobileMenu').hide()
+    }else {
+      $('#mobileMenu').show();
+    }
+  }
+</script>
   </body>
 </html>
