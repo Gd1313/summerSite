@@ -90,7 +90,7 @@
 <aside>
   <div id="videos">
     <h2 class="heading">Summer videos</h2>
-    <div style="clear both">
+    <div style="clear:both">
       <br>
     </div>
     <!--Videos-->

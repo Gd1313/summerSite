@@ -26,6 +26,25 @@ aside{
   color:#646464;
 }
 
+.video>img{
+  border: 2px solid #dfdfdf;
+  border-radius: 5px;
+  width:35%;
+  float: left;
+  margin-right: 10px;
+}
+
+.video>span{
+  float: right;
+  font-weight: bold;
+  color: rgba(236,101,80,1);
+}
+
+.video>a>#btn{
+  float: left;
+  margin-left: 30%;
+}
+
 .heading{
   font-weight:lighter;
   font-size: 1.4em;
