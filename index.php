@@ -39,6 +39,16 @@
     </div>
   </div>
 </header>
+<nav>
+  <a href="">Summer news</a>
+  <a href="">Summer video</a>
+  <a href="">Forum</a>
+  <a href="">Summer tasks</a>
+  <div id="search">
+    <span>Search</span>
+    <i class="fas fa-search"></i>
+  </div>
+</nav>
 </div>
 <footer>
 <div id="site_name">
