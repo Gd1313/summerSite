@@ -40,10 +40,15 @@
   </div>
 </header>
 <nav>
-  <a href="">Summer news</a>
-  <a href="">Summer video</a>
-  <a href="">Forum</a>
-  <a href="">Summer tasks</a>
+  <div id="menuShow">
+    <i class="fas fa-bars"></i>
+  </div>
+  <div id="hideMenu">
+    <a href="">Summer news</a>
+    <a href="">Summer video</a>
+    <a href="">Forum</a>
+    <a href="">Summer tasks</a>
+  </div>
   <div id="search">
     <span>Search</span>
     <i class="fas fa-search"></i>
