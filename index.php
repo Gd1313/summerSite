@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/main page.css" type="text/css" charset="utf-8">
     <meta name="description" content="Practice project site">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="img/sun.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="sun.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css">
   </head>
   <body>
