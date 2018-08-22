@@ -45,6 +45,16 @@ aside{
   margin-left: 30%;
 }
 
+#one_video{
+  float: left;
+  margin-top: 10px;
+}
+
+#one_video>img{
+  width: 80%;
+  float: left;
+}
+
 .heading{
   font-weight:lighter;
   font-size: 1.4em;
