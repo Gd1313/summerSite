@@ -177,6 +177,25 @@ nav>a{
 nav>a:hover{
   color:#868686;
 }
+#hideMenu{
+  display: inline;
+}
+
+#menuShow{
+  display: inline;
+  font-size: 1.4em;
+  margin-left: 20px;
+  float: left;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+#mobileMenu{
+  display: none;
+  width: 100%;
+  float: left;
+}
+
 #search{
   float: right;
   color:#7d7d7d;
