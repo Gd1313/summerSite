@@ -209,3 +209,14 @@ aside{
     margin-left: 5%!important;
   }
 }
+
+@media (max-width: 600px) {
+  #courses a>#btn {
+  margin-left: 5%!important;
+ }
+}
+@media (max-width: 440px) {
+  #main a>#btn {
+  margin-left: 5%!important;
+ }
+}

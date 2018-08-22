@@ -241,16 +241,6 @@ nav a:last-child{
   font-size: 1.4em;
   margin-right: 10px;
 }
-@media (max-width: 600px) {
-  #courses>a#btn {
-  margin-left: 5%!important;
- }
-}
-@media (max-width: 440px) {
-  #main>a#btn {
-  margin-left: 5%!important;
- }
-}
 /*End of site top*/
 /*Footer*/
 #wrapper{
