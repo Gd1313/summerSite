@@ -20,7 +20,7 @@
 <header>
   <div id="logo">
     <a href="https://mysummersite.000webhostapp.com/">
-      <img src="img/logo.png" title="summersite.com" alt="summersite.com">
+      <img src="img/logo.png" title="mysummersite.com" alt="summersite.com">
       <span>Summmer Site</span>
   </div>
   <div id="about">
@@ -68,9 +68,7 @@
 <div id="main">
     <div id="news">
       <h2 class="heading">Summer news</h2>
-      <div style="clear:both">
-        <br>
-      </div>
+      <div style="clear:both"><br></div>
       <!--Topic-->
       <div class="article">
         <img src="http://inboxpros.com/wp-content/uploads/2016/06/summer.jpg" alt="test" title="test" >

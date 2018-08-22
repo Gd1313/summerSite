@@ -164,7 +164,7 @@ header>div#logo>a{
 /*Site menu*/
 nav{
   background-color: white;
-  width: 99.4;
+  width: 99.4%;
   padding: 7px 0.3%;
   float: left;
   border-bottom: 2px solid #ebebeb;
