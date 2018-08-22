@@ -186,3 +186,18 @@ footer{
 #site_name>span{
   font-family: 'Suez One', serif;
 }
+@media (max-width: 1080px) {
+  #clear{
+    clear: both;
+  }
+}
+
+#fotter_menu{
+
+  font-size: 1.2em;
+}
+
+footer_menu>a{
+  margin-left: 2%;
+  color: :#f4f4f4;
+}
