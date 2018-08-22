@@ -95,8 +95,8 @@
     </div>
     <!--Videos-->
     <?php for ($i=0; $i < 4; $i++) {
-     echo'<div class="videos">
-            <img src="http://inboxpros.com/wp-content/uploads/2016/06/summer.jpghttps://i.ytimg.com/vi/nJXN1aZf3M0/maxresdefault.jpg" alt="test" title="test" >
+     echo'<div class="video">
+            <img src="https://assets.capitalfm.com/2014/14/calvin-harris-summer-video-1396854127-large-article-1.jpg" alt="test" title="test" >
             Perfect <em>summer</em>
             <span>10 videos</span>
           </div>
