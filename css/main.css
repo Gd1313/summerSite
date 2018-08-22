@@ -201,3 +201,8 @@ footer_menu>a{
   margin-left: 2%;
   color: :#f4f4f4;
 }
+
+#footer_menu>a:hoover{
+  border-bottom: 1px solid silver;
+  color: #aeaeae;
+}
