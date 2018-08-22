@@ -182,3 +182,7 @@ footer{
   font-size: 1.5em;
   float: right;
 }
+
+#site_name>span{
+  font-family: 'Suez One', serif;
+}
