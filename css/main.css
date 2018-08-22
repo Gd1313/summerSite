@@ -196,6 +196,18 @@ nav>a:hover{
   float: left;
 }
 
+@media (min-width: 785px) {
+  #menuShow{display: none;
+  visibility: hiden;}
+}
+
+@media (max-width: 784px){
+  #hideMenu{
+    display: none;
+    visibility: hidden;
+  }
+}
+
 #search{
   float: right;
   color:#7d7d7d;
