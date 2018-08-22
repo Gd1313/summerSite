@@ -49,6 +49,7 @@ header{
   padding: 0.3%;
   color: white;
   border-bottom: 5px solid #59595a;
+  font-family: 'Roboto Slab', serif;
 }
 header>div#logo>a>img{
   width: 50px;
@@ -126,7 +127,6 @@ header>div#logo>a{
   float: left;
   width: 70%;
   text-align: center;
-  font-family: 'Roboto Slab', serif;
   font-size: 1.4em;
   padding-top: 10px;
 }
@@ -165,9 +165,24 @@ header>div#logo>a{
 nav{
   background-color: white;
   width: 99.4;
-  padding: 0.3%;
+  padding: 7px 0.3%;
   float: left;
-  border-bottom: 2px solid silver;
+  border-bottom: 2px solid #ebebeb;
+}
+nav>a{
+  color:#323232;
+  font-size: 1.5em;
+  margin-left: 5%;
+}
+nav>a:hover{
+  color:#868686;
+}
+#search{
+  float: right;
+  color:#7d7d7d;
+  cursor: pointer;
+  font-size: 1.4em;
+  margin-right: 10px;
 }
 /*End of site top*/
 /*Footer*/
