@@ -53,6 +53,16 @@
     <span>Search</span>
     <i class="fas fa-search"></i>
   </div>
+
+  <div id="mobileMenu">
+    <a href="">Summer news</a><br>
+    <a href="">Summer video</a><br>
+    <a href="">Forum</a><br>
+    <a href="">Summer tasks</a><br>
+    <hr>
+    <a href="">Register</a><br>
+    <a href="">Login</a><br>
+  </div>
 </nav>
 </div>
 <footer>
