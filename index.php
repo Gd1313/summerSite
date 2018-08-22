@@ -94,12 +94,15 @@
     $('#mobileMenu').show();
   });
   $(document).scroll (function(){
+    if ($(document).width()>785) {
+
+
     if ($(document).scrollTop()>$('header').height()+10) {
       $('nav').addclass('fixed');
     }else {
         $('nav').removeclass('fixed');
     }
-
+  }
   });
     window.onresize=function(event){
         $('#mobileMenu').hide();
