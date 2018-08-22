@@ -143,15 +143,15 @@ header>div#logo>a{
 #reg_auth>a{
   color: white;
 }
-#reg_auth>a:hover>div#btn{
+#btn:hoover{
   border-bottom: 2px solid rgba(217, 91, 72, 1);
   margin-top: 7px;
 }
-#reg_auth>a:active>div#btn{
+#btn:active{
   border-bottom: 0;
   margin-top: 9px;
 }
-#reg_auth>a>div#btn{
+#btn{
   float: right;
   margin-right: 3%;
   margin-top: 5px;
@@ -160,6 +160,8 @@ header>div#logo>a{
   font-size: 1.2em;
   background-color: rgba(236,101,80,1);
   text-shadow: #454545 0 0 2px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
 }
 /*Site menu*/
 nav{
