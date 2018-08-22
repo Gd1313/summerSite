@@ -202,7 +202,36 @@ footer_menu>a{
   color: :#f4f4f4;
 }
 
-#footer_menu>a:hoover{
+#footer_menu>a:hoover,#rights>a:hoover{
   border-bottom: 1px solid silver;
   color: #aeaeae;
+}
+#rights{
+  float: left;
+  margin-left: 5%;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+#rights>a{
+  color: white;
+}
+
+#social{
+  float: right;;
+  width: 40%;
+  margin-right: 5;
+  margin-top: 10px;
+}
+
+#social>a{
+  border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  background-color: rgba(217, 91, 72, 1);
+  margin-left: 2%;
+  width: 30px;
+  height: 30px;
+  float: right;
+  color: white;
 }
