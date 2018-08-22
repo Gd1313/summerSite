@@ -19,7 +19,7 @@
 
 <header>
   <div id="logo">
-    <a href="https://summersite.000webhostapp.com/">
+    <a href="https://mysummersite.000webhostapp.com/">
       <img src="img/logo.png" title="summersite.com" alt="summersite.com">
       <span>Summmer Site</span>
   </div>
