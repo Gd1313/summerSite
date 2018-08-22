@@ -237,3 +237,11 @@ footer_menu>a{
   text-align: center;
   line-height: 30px;
 }
+
+#social>a:hover{
+  background-color: rgba(217, 91, 72, 0.6);
+}
+@media (max-width:520px){
+  #site_name{display: none;}
+  #social{width: 100}
+}
