@@ -79,8 +79,8 @@
 <a href="">Все права защищены &copy; <?=date('Y')?></a>
 </div>
 <div id="social">
-  <a href="" title="Twitter"><i class="fab fa-twitter-square"></i>
-</a>
+  <noindex><a href="https://twitter.com/gdvlad13?lang=ru" target="_blank" rel="nofollow"   title="Twitter"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+</a></noindex>
 </div>
 </footer>
 </div>
