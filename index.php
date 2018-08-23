@@ -24,7 +24,7 @@
       <span>Summmer Site</span>
   </div>
   <div id="about">
-    <a href="/ad" title="Learn something new">Something new</a>
+    <a href="/ad.php" title="Learn something new">Something new</a>
     <a href="" title="Feedback">Feedback</a>
     <div id="reg_auth">
       <a href="" title="Log in">
