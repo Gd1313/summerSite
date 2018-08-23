@@ -144,7 +144,26 @@
   <!--Twitter-->
   <a class="twitter-timeline" data-width="400" data-height="350" data-theme="dark" href="https://twitter.com/gdvlad13?ref_src=twsrc%5Etfw">Tweets by gdvlad13</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
-
+    <div id="sub_to_project">
+      <span class="heading">Subscribe to project</span>
+      <div style="clear:both">
+        <br>
+      </div>
+      <p>To get full access to all features, subscribe to the project</p>
+      <a href="" title="View more information about subscription">
+        <div id="btn">
+          Learn more about subscription
+        </div>
+      </a>
+      <div style="clear:both">
+        <br>
+      </div>
+      <h2 class="heading">Site creation</h2>
+      <div style="clear:both">
+        <br>
+      </div>
+        <img src="https://www.howtogeek.com/wp-content/uploads/2013/09/img_5245c3e1588ae.jpg" alt="test" title="test" >
+    </div>
 </div>
 <footer>
 <div id="site_name">

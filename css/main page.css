@@ -233,11 +233,18 @@ aside{
   #subscribe{
     width: 70%;
   }
+  #sub_to_project{
+    width: 25%;
+  }
 }
 
 @media (max-width: 910px) {
   #subscribe{
     width: 100%;
+  }
+  #sub_to_project{
+    width: 80%;
+    margin-left: 10%;
   }
 }
 
@@ -249,4 +256,16 @@ aside{
 
 #vk_groups{
   margin: auto;
+}
+
+#sub_to_project{
+  float: left;
+  margin-bottom: 20px;
+}
+
+#sub_to_project>p{
+  width: 100%;
+  color:#333;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.1em;
 }
