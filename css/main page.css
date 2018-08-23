@@ -276,3 +276,29 @@ aside{
   float: left;
   text-align: center;
 }
+
+#web_sites{
+  width: 98%;
+  border-top: 2px solid #d7d7d7;
+  position: relative;
+  padding: 1%;
+  background-color: #efefef;
+  text-align: center;
+  min-height: 150px;
+}
+
+#web_sites>span{
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5em;
+  color:#434343;
+}
+
+#web_sites>a>#btn{
+  position: absolute;
+  margin: 0;
+  top:80%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-80%);
+  font-size: 2em;
+}

@@ -164,6 +164,17 @@
       </div>
         <img src="https://www.howtogeek.com/wp-content/uploads/2013/09/img_5245c3e1588ae.jpg" alt="test" title="test" >
     </div>
+
+    <div style="clear:both">
+      <br>
+    </div>
+    <div id="web_sites">
+      <span>Want a joke?</span>
+      <a href="" title="Create a joke"></a>
+      <div id="btn">
+        Create a joke
+      </div>
+    </div>
 </div>
 <footer>
 <div id="site_name">
