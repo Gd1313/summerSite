@@ -1,4 +1,5 @@
 <?php
+require_once "blocks/head.php"
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
