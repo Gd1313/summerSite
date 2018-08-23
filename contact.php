@@ -55,7 +55,7 @@ $('#send').click (function () {
 	var name = $('#name').val ();
 	var message = $('#message').val ();
 	$.ajax({
-		url:    	'ajax/contacting.php',
+		url:    	'/www/ajax/contacting.php',
 		type:		'POST',
 		cache: 		false,
 		data:   	{'name':name, 'email':email, 'message':message},
