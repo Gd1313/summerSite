@@ -123,6 +123,14 @@
 <div style="clear both">
   <br>
 </div>
+
+  <div id="subscribe">
+    <span>Subscribe to receive new summer news every day</span>
+    <div style="clear both">
+      <br>
+    </div>
+  </div>
+
 </div>
 <footer>
 <div id="site_name">

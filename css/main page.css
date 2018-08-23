@@ -220,3 +220,29 @@ aside{
   margin-left: 5%!important;
  }
 }
+
+/*Lower part of the site*/
+
+#subscribe{
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 911px) {
+  #subscribe{
+    width: 70%;
+  }
+}
+
+@media (max-width: 910px) {
+  #subscribe{
+    width: 100%;
+  }
+}
+
+#subscribe>span{
+  font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+  color: #434343;
+}
