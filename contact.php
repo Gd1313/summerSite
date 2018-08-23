@@ -26,12 +26,12 @@
           To contact me fill the form and send it.
         <form class="" action="index.html" method="post">
           <div >
-            <input type="text" id="name" placeholder="Your name">
+            <input type="text" id="name" placeholder="Your name" onclick="$(this).css ('border color', '#ccc')">
             <br>
-            <input type="email" id="email" placeholder="Email..">
+            <input type="email" id="email" placeholder="Email.." onclick="$(this).css ('border color', '#ccc')">
           </div>
           <div >
-            <textarea id="message" placeholder="Enter your message"></textarea>
+            <textarea id="message" placeholder="Enter your message" onclick="$(this).css ('border color', '#ccc')"></textarea>
           </div>
           <input type="button" id="send" class="btn" value="Send">
         </form>
@@ -49,5 +49,54 @@
   <?php require_once"blocks/footer.php"  ?>
 </div>
 <?php require_once"blocks/JS_scripts.php"  ?>
+<script>
+$('#send').click (function () {
+	var email = $('#email').val ();
+	var name = $('#name').val ();
+	var message = $('#message').val ();
+	$.ajax({
+		url:    	'ajax/contacting.php',
+		type:		'POST',
+		cache: 		false,
+		data:   	{'name':name, 'email':email, 'message':message},
+		dataType:	'html',
+		beforeSend: function () {
+			$('#send').attr ("disabled", "disabled");
+		},
+		success: function(data) {
+			if (data == true) {
+				$('#name').val ("");
+				$('#email').val ("");
+				$('#message').val ("");
+				$('#send').text ("Сообщение отправлено");
+				$('#email').css ("border-color", "#60fc8c");
+				$('#name').css ("border-color", "#60fc8c");
+				$('#message').css ("border-color", "#60fc8c");
+			} else {
+				if (data == false)
+					alert ("Что-то пошло не так! Сообщение не отправлено");
+				else {
+					switch (data) {
+					case "Имя не указано":
+					$('#name').css ("border-color", "#f7b4b4");
+					break;
+					case "Сообщение не указано":
+					$('#message').css ("border-color", "#f7b4b4");
+					break;
+					case "Неправильный e-mail":
+					$('#email').css ("border-color", "#f7b4b4");
+					break;
+					default:
+					$('#email').css ("border-color", "#f7b4b4");
+					$('#message').css ("border-color", "#f7b4b4");
+					$('#name').css ("border-color", "#f7b4b4");
+					}
+				}
+			}
+			$('#send').removeAttr ("disabled");
+		}
+	});
+});
+</script>
   </body>
 </html>
