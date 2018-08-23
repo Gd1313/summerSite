@@ -131,6 +131,8 @@
     </div>
     <!--Facebook-->
   <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=350&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  <!--Twitter-->
+  <a class="twitter-timeline" data-width="400" data-height="350" data-theme="dark" href="https://twitter.com/gdvlad13?ref_src=twsrc%5Etfw">Tweets by gdvlad13</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
 </div>
