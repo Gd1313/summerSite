@@ -7,9 +7,11 @@
     $err = "Fill all fields";
   }else if (trim ($_POST['name'])=="" {
       $err = "Fill name field";
-  }else if (!((strpos($email, ".")>0) && (strpos($email, "@")>0)) {
+    }else if (!((strpos($email, ".")>0) && (strpos($email, "@")>0)) {
       $err = "Wrong email adress";
-
+    }elseif (trim ($_POST['message']) {
+    $err = "Fill message field";
+  }
       if ($err !="") { //If there are errors
         echo $err;
         exit;
