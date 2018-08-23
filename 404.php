@@ -21,7 +21,8 @@
       <div style="clear:both"><br></div>
       <div class="block">
 
-Oops .. Something went wrong and you got to mistake 404! Perhaps the page you were trying to navigate to was deleted or it never existed! You can use the search on the site or go to the main page - <a href="https://mysummersite.000webhostapp.com/"></a>
+Oops .. Something went wrong and you got to mistake 404! Perhaps the page you were trying to navigate to was deleted or it never existed! You can use the search on the site or go to the main page -
+<a href="https://mysummersite.000webhostapp.com/">Summer site</a>
       </div>
     </div>
 </div>
