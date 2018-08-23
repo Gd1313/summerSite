@@ -269,3 +269,10 @@ aside{
   font-family: 'Roboto Slab', serif;
   font-size: 1.1em;
 }
+
+#sub_to_project>a>#btn{
+  background-color: #21a7e1;
+  border-bottom-color: #1999d1;
+  float: left;
+  text-align: center;
+}
