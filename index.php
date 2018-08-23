@@ -126,7 +126,17 @@
 
   <div id="subscribe">
     <span>Subscribe to receive new summer news every day</span>
-    <div style="clear both">
+    <div style="clear:both">
+      <br>
+    </div>
+    <!--VK-->
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?159"></script>
+
+    <div id="vk_groups"></div>
+    <script type="text/javascript">
+    VK.Widgets.Group("vk_groups", {mode: 3, width: "500"}, 56333679);
+    </script>
+    <div style="clear:both">
       <br>
     </div>
     <!--Facebook-->
