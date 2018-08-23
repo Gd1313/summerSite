@@ -170,10 +170,11 @@
     </div>
     <div id="web_sites">
       <span>Want a joke?</span>
-      <a href="" title="Create a joke"></a>
+      <a href="" title="Create a joke">
       <div id="btn">
         Create a joke
       </div>
+      </a>
     </div>
 </div>
 <footer>
