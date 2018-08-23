@@ -6,7 +6,7 @@
 
 </div>
 <div id="footer_menu">
-<a href="" title="Feedback">Feedback</a>
+<a href="/contact.php" title="Feedback">Feedback</a>
 </div>
 <div id="rights">
 <a href="">All rights reserved &copy; <?=date('Y')?></a>
