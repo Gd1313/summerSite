@@ -35,14 +35,14 @@ form textarea{
   min-height: 70px;
 }
 
-form #btn{
+form .btn{
   border: 0;
   border-bottom: 4px solid #1999d1;
   cursor: pointer;
   background-color: #21a7e1;
 }
 
-form #btn:hover{
+form .btn:hover{
     border-bottom-color: 4px solid #1999d1;
 
 }
